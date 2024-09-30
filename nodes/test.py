@@ -10,7 +10,7 @@ class PrintHelloWorld:
 
     RETURN_TYPES = ()
     FUNCTION = "print_text"
-    OUTPUT_NODE = True
+    OUTPUT_NODE = False
     CATEGORY = "Tutorial Nodes"
 
     def print_text(self, text):
