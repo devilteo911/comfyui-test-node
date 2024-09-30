@@ -8,10 +8,10 @@ class PrintHelloWorld:
             }
         }
 
-        RETURN_TYPES = ()
-        FUNCTION = "print_text"
-        OUTPUT_NODE = True
-        CATEGORY = "Tutorial Nodes"
+    RETURN_TYPES = ()
+    FUNCTION = "print_text"
+    OUTPUT_NODE = True
+    CATEGORY = "Tutorial Nodes"
 
     def print_text(self, text):
         print(f"Nice, {text}!")
